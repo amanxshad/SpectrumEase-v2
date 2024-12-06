@@ -26,10 +26,15 @@ Leveraging eye-tracking technology with advanced analysis algorithms, and user-f
 3: Screen Layout Enhancement via Browser Extension
 
 ## Design
+Home
 ![image](./Client/src/assets/home-page.png)
+Instructions
 ![image](./Client/src/assets/instructions.png)
+Iris Tracker
 ![image](./Client/src/assets/eye-tracker.png)
+Results
 ![image](./Client/src/assets/results.png)
+Adjustment
 ![image](./Client/src/assets/color-palette.png)
 
 ## Technologies
