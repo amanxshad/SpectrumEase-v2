@@ -9,20 +9,22 @@ function CrudData(){
     const [colorOdd, setOddcolor] = useState('');
 
 
+    const baseURL = "https://spectrumease-backend.onrender.com";
+
     useEffect(() => {
-        axios.get('http://localhost:3000/get')
-        .then((result) => setDatas(result.data))
-        .catch((err) => console.log(err));
+        axios.get(`${baseURL}/get`)
+            .then((result) => setDatas(result.data))
+            .catch((err) => console.log(err));
     }, [setDatas]);
-
-
+    
     const addColor = (newColor, newColorOdd) => {
-        axios.post('http://localhost:3000/add', { color: newColor, colorOdd: newColorOdd })
-        .then((result) => {
-            setDatas((prevDatas) => [...prevDatas, result.data]);
-        })
-        .catch((err) => console.log(err));
+        axios.post(`${baseURL}/add`, { color: newColor, colorOdd: newColorOdd })
+            .then((result) => {
+                setDatas((prevDatas) => [...prevDatas, result.data]);
+            })
+            .catch((err) => console.log(err));
     };
+    
 
     return(
         <div>
