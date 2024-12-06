@@ -1,0 +1,73 @@
+.circle-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1px 7px; /* Adjust the gap between circles as needed */
+    align-items: center;
+    transform: rotate(-32deg) translateX(-80px);
+  }
+  
+  .circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #3498db;
+    transition: transform 0.01s linear; /* Smooth transition */
+  }
+
+  .circle.spot{
+    background-color: rgb(168, 61, 61);
+  }
+  
+  /* Apply translation based on data-row attribute */
+  .circle[data-row="0"] {
+    transform: translateX(0px);
+  }
+  
+  .circle[data-row="1"] {
+    transform: translateX(30px);
+  }
+  
+  .circle[data-row="2"] {
+    transform: translateX(60px);
+  }
+  
+  .circle[data-row="3"] {
+    transform: translateX(90px);
+  }
+  
+  .circle[data-row="4"] {
+    transform: translateX(120px);
+  }
+
+  .circle[data-row="5"] {
+    transform: translateX(150px);
+  }
+
+  .circle[data-row="0"]:hover {
+    transform: scale(1.2); /* Scale up the circle on hover */
+  }
+
+  .circle[data-row="1"]:hover {
+    transform: translateX(30px) scale(1.2); /* Scale up the circle on hover */
+  }
+
+  .circle[data-row="2"]:hover {
+    transform: translateX(60px) scale(1.2); /* Scale up the circle on hover */
+  }
+
+  .circle[data-row="3"]:hover {
+    transform: translateX(90px) scale(1.2); /* Scale up the circle on hover */
+  }
+
+  .circle[data-row="4"]:hover {
+    transform: translateX(120px) scale(1.2); /* Scale up the circle on hover */
+  }
+
+  .circle[data-row="5"]:hover {
+    transform: translateX(150px) scale(1.2); /* Scale up the circle on hover */
+  }
+  
+
+  button.back{
+    margin-top: 5rem;
+  }

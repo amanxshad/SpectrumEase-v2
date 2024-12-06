@@ -1,0 +1,267 @@
+.parent {
+    background-color: #242424;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .parent .div {
+    background-color: #242424;
+    height: 982px;
+    position: relative;
+    width: 1512px;
+  }
+  
+  .parent .overlap {
+    height: 44px;
+    left: 662px;
+    position: absolute;
+    top: 57px;
+    width: 189px;
+  }
+
+  .parent .text-wrapper {
+    color: #8c8c8c;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    height: 37px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 189px;
+  }
+  
+
+
+
+  .parent .rectangle-2 {
+    border: 2px solid;
+    border-color: #8c8c8c;
+    border-radius: 50px;
+    height: 106px;
+    right: 400px;
+    position: absolute;
+    bottom: 153px;
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: height 0.5s ease, width 0.5s ease, top 0.5s ease, bottom 0.5s ease;
+  }
+  .parent .rectangle-2.one {
+    height: 77px;
+  }
+  .parent .rectangle-2.one.two {
+    height: 77px;
+    width: 269px;
+  }
+  .parent .rectangle-2.one.two.three {
+    height: 77px;
+    width: 442px;
+  }
+  .parent .rectangle-2.one.two.three.four {
+    height: 264px;
+    background-color: #d9d9d91a;
+  }
+  
+
+
+
+  .parent .rectangle-3 {
+    border: 2px solid;
+    border-color: #8c8c8c;
+    border-radius: 50px;
+    height: 190px;
+    right: 400px;
+    position: absolute;
+    top: 506px;
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: height 0.5s ease, width 0.5s ease, top 0.5s ease, bottom 0.5s ease;
+  }
+  .parent .rectangle-3.one {
+    height: 139px;
+    top: 596px;
+  }
+  .parent .rectangle-3.one.two {
+    height: 302px;
+    top: 430px;
+    width: 269px;
+  }
+  .parent .rectangle-3.one.two.three {
+    height: 302px;
+    top: 430px;
+    width: 442px;
+    background-color: #d9d9d91a;
+  }
+  .parent .rectangle-3.one.two.three.four {
+    height: 121px;
+    top: 430px;
+    width: 442px;
+    background-color: transparent;
+  }
+  
+
+
+
+  .parent .rectangle-1 {
+    background-color: #d9d9d91a;
+    border: 2px solid;
+    border-color: #8c8c8c;
+    border-radius: 50px;
+    height: 231px;
+    left: 408px;
+    position: absolute;
+    top: 259px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: height 0.5s ease, width 0.5s ease, top 0.5s ease, bottom 0.5s ease;
+  }
+  .parent .rectangle-1.one{
+    height: 323px;
+  }
+  .parent .rectangle-1.one.two {
+    height: 156px;
+    background-color: transparent;
+  }
+  
+
+
+
+  .parent .rectangle-4 {
+    border: 2px solid;
+    border-color: #8c8c8c;
+    border-radius: 50px;
+    height: 319px;
+    left: 408px;
+    position: absolute;
+    bottom: 151px;
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: height 0.5s ease, width 0.5s ease, top 0.5s ease, bottom 0.5s ease;
+  }
+  .parent .rectangle-4.one{
+    height: 232px;
+  }
+  .parent .rectangle-4.one.two{
+    height: 395px;
+    width: 415px;
+    background-color: #d9d9d91a;
+  }
+  .parent .rectangle-4.one.two.three{
+    height: 395px;
+    width: 242px;
+    background-color: transparent;
+  }
+
+
+
+
+  .parent .text-wrapper-2 {
+    color: #ffffff;
+    background-color: transparent;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 17px;
+    font-weight: 400;
+    height: 40px;
+    left: 259px;
+    letter-spacing: 0;
+    line-height: normal;
+    opacity: 0.5;
+    position: absolute;
+    text-align: center;
+    top: 160px;
+    width: 174px;
+  }
+  
+  .parent .text {
+    color: #ffffffb2;
+    font-family: "Outfit-Medium", Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    height: 50px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 81px;
+    width: 473px;
+  }
+  .parent .text.one {
+    width: 320px;
+    top: 120px;
+  }
+  .parent .text.one.two {
+    width: 320px;
+    top: 65px;
+  }
+
+
+  .parent .text2 {
+    color: #ffffffb2;
+    font-family: "Outfit-Medium", Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    height: 50px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 135px;
+    width: 300px;
+  }
+  .parent .text2.three {
+    width: 100px;
+    top: 170px;
+  }
+
+  .parent .text3 {
+    color: #ffffffb2;
+    font-family: "Outfit-Medium", Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    height: 50px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 100px;
+    width: 300px;
+  }
+  .parent .text3.four {
+    top: 52px;
+  }
+  button:focus {
+    outline: none; 
+  }
+
+  .parent .text4 {
+    color: #ffffffb2;
+    font-family: "Outfit-Medium", Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    height: 50px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 90px;
+    width: 300px;
+  }
+  .bluebttn{
+    position: absolute;
+    bottom: 20px;
+    background-color: #2280FD;
+  }
