@@ -8,7 +8,7 @@
   
   .frame .div-2 {
     background-color: #ffffff;
-    height: 4340px;
+    height: 250vw;
     position: relative;
     width: 100vw;
     display: flex;
@@ -16,19 +16,16 @@
   }
   
   .frame .overlap {
-    height: 851px;
     left: 0;
     position: absolute;
-    top: 3490px;
+    top: 220vw;
     width: 100vw;
   }
   
   .frame .rectangle {
     background-color: #0d0d0d;
-    height: 823px;
-    left: 0;
+    height: 32vw;
     position: absolute;
-    top: 28px;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -47,15 +44,14 @@
   .frame .p {
     color: #000000;
     font-family: "Outfit-Regular", Helvetica;
-    font-size: 22px;
+    font-size: 1.3vw;
     font-weight: 400;
-    height: 160px;
-    left: 141px;
+    left: 9vw;
     letter-spacing: 0.22px;
-    line-height: 32px;
+    line-height: 2vw;
     position: absolute;
-    top: 1175px;
-    width: 527px;
+    top: 72.6vw;
+    width: 33vw;
     text-align: left;
   }
   
@@ -80,31 +76,36 @@
   .frame .overlap-group {
     background-color: #272727;
     border-radius: 50px;
-    height: 82px;
+    height: 5.2vw;
     position: absolute;
     top: 36px;
-    width: 1220px;
+    width: 76vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .frame .div-wrapper {
     background-color: #2280fd;
     border-radius: 45px;
-    height: 58px;
-    right: -4px;
-    top:-4px;
+    height: 3.7vw;
+    right: 1vw;
     position: absolute;
-    width: 108px;
+    width: 6.7vw;
+    font-size: 1vw;
+    margin: 0;
   }
   
   .frame .overlap-2 {
-    border: 1.5px solid;
+    border: 0.1vw solid;
     border-color: #8c8c8ca1;
     border-radius: 45px;
-    height: 56px;
-    right: 130px;
+    height: 3.4vw;
+    right: 8.2vw;
     position: absolute;
-    top: 13px;
-    width: 328px;
+    width: 20.5vw;
+    display: flex;
+    align-items: center;
   }
   
   .frame .text-wrapper-5 {
@@ -113,11 +114,9 @@
     outline: none;
     color: #8c8c8c;
     font-family: "Inter-Regular", Helvetica;
-    font-size: 19px;
+    font-size: 1.2vw;
     font-weight: 400;
-    height: 49px;
     left: 19px;
-    top: 2px;
     line-height: normal;
     position: absolute;
     text-align: left;
@@ -127,38 +126,30 @@
   .frame .rectangle-4 {
     background-color: #d9d9d933;
     border-radius: 40px;
-    height: 41px;
-    left: 278px;
+    height: 2.6vw;
+    left: 17.5vw;
     position: absolute;
-    top: 6px;
-    width: 41px;
+    width: 2.6vw;
   }
   
   .frame .text-wrapper-6 {
     color: #8c8c8c;
     font-family: "Inter-Regular", Helvetica;
-    font-size: 20px;
+    font-size: 1.2vw;
     font-weight: 400;
-    height: 37px;
-    left: 20px;
-    letter-spacing: 0;
-    line-height: normal;
+    left: 3.5vw;
     position: absolute;
-    top: 30px;
-    width: 189px;
   }
   
   .frame .navbar {
-    left: 230px !important;
+    left: 14.4vw !important;
     position: absolute !important;
-    top: 12px;
     color: #cbcbcb;
     font-family: "Inter-Regular", Helvetica;
     font-weight: 400;
-    height: 37px;
     line-height: normal;
     text-align: center;
-    width: 500px;
+    width: 31.4vw;
     display: flex;
     justify-content: space-around;
   }
@@ -166,86 +157,89 @@
  .frame .navbar button{
     background-color: transparent;
     outline: none;
-    height: 60px;
     margin: 0;
-    font-size: 20px;
+    font-size: 1.2vw;
  }
   
   .frame .overlap-3 {
     height: 69px;
-    left: 140px;
+    left: 9vw;
     position: absolute;
-    top: 833px;
+    top: 52vw;
     width: 279px;
   }
   
   .frame .rectangle-5 {
     background-color: #f5f5f5;
+    color: black;
     border: 3px solid;
     border-color: #ffffff;
     border-radius: 40px;
-    height: 69px;
-    left: 210px;
+    height: 4.4vw;
+    left: 13.2vw;
     position: absolute;
     top: 0;
-    width: 69px;
+    width: 4.4vw;
   }
   
   .frame .rectangle-6 {
     background-color: #ececec;
+    color: black;
     border: 3px solid;
     border-color: #ffffff;
     border-radius: 40px;
-    height: 69px;
-    left: 158px;
+    height: 4.4vw;
+    left: 9.9vw;
     position: absolute;
     top: 0;
-    width: 69px;
+    width: 4.4vw;
   }
   
   .frame .rectangle-7 {
     background-color: #70768e;
+    color: white;
     border: 3px solid;
     border-color: #ffffff;
     border-radius: 40px;
-    height: 69px;
-    left: 105px;
+    height: 4.4vw;
+    left: 6.6vw;
     position: absolute;
     top: 0;
-    width: 69px;
+    width: 4.4vw;
   }
   
   .frame .rectangle-8 {
     background-color: #475489;
+    color: white;
     border: 3px solid;
     border-color: #ffffff;
     border-radius: 40px;
-    height: 69px;
-    left: 53px;
+    height: 4.4vw;
+    left: 3.3vw;
     position: absolute;
     top: 0;
-    width: 69px;
+    width: 4.4vw;
   }
   
   .frame .rectangle-9 {
     background-color: #894779;
+    color: white;
     border: 3px solid;
     border-color: #ffffff;
     border-radius: 40px;
-    height: 69px;
+    height: 4.4vw;
     left: 0;
     position: absolute;
     top: 0;
-    width: 69px;
+    width: 4.4vw;
   }
   
   .frame .text-wrapper-7 {
-    color: #000000;
     font-family: "Noto Nastaliq Urdu-Regular", Helvetica;
-    font-size: 35px;
+    font-size: 2.4vw;
     font-weight: 400;
     letter-spacing: 0;
-    line-height: 67px;
+    line-height: 4.3vw;
     text-align: center;
     white-space: nowrap;
   }
@@ -253,42 +247,40 @@
   .frame .text-wrapper-8 {
     color: #000000;
     font-family: "Inter-Medium", Helvetica;
-    font-size: 20px;
+    font-size: 1.2vw;
     font-weight: 500;
     height: 38px;
     letter-spacing: 0;
-    line-height: normal;
     position: absolute;
     text-align: center;
-    top: 296px;
-    width: 189px;
+    top: 18.2vw;
   }
   
   .frame .discover-a-world-of {
     color: #000000;
     font-family: "Inter-Medium", Helvetica;
-    font-size: 21px;
+    font-size: 1.3vw;
     font-weight: 500;
     height: 160px;
     letter-spacing: 0;
-    line-height: 37px;
+    line-height: 2.4vw;
     position: absolute;
     text-align: center;
-    top: 525px;
-    width: 690px;
+    top: 32.8vw;
+    width: 45vw;
   }
   
   .frame .unlock-the-full {
     color: transparent;
     font-family: "Outfit-Medium", Helvetica;
-    font-size: 72px;
+    font-size: 4.5vw;
     font-weight: 500;
     letter-spacing: -1.62px;
-    line-height: 77px;
+    line-height: 5vw;
     position: absolute;
     text-align: center;
     top: 17vw;
-    width: 750px;
+    width: 50vw;
   }
   
   .frame .span {
@@ -309,14 +301,13 @@
   .frame .our-tool-is-always {
     color: #0d0d0d;
     font-family: "Outfit-SemiBold", Helvetica;
-    font-size: 69px;
+    font-size: 4.2vw;
     font-weight: 600;
-    height: 207px;
-    left: 143px;
+    left: 9vw;
     letter-spacing: -1.38px;
-    line-height: 69px;
+    line-height: 4.2vw;
     position: absolute;
-    top: 877px;
+    top: 55vw;
     text-align: left;
   }
   
@@ -331,12 +322,11 @@
   .frame .text-wrapper-11 {
     color: #0d0d0d;
     font-family: "Outfit-SemiBold", Helvetica;
-    font-size: 46px;
+    font-size: 2.6vw;
     font-weight: 600;
     height: 69px;
-    top: 1700px;
+    top: 106.8vw;
     letter-spacing: -0.92px;
-    line-height: 69px;
     position: absolute;
     white-space: nowrap;
   }
@@ -344,26 +334,26 @@
   .frame .how-does-it-work {
     color: #000000;
     font-family: "Outfit-Regular", Helvetica;
-    font-size: 23px;
+    font-size: 1.3vw;
     font-weight: 400;
     height: 160px;
-    top: 1780px;
-    letter-spacing: 0.22px;
-    line-height: 31px;
+    top: 110.5vw;
+    letter-spacing: 0.3px;
+    line-height: 1.9vw;
     position: absolute;
     text-align: center;
     align-self: center;
   }
   
   .frame .overlap-5 {
-    border: 1px solid;
+    border: 0.01vw solid;
     border-color: #000000;
     border-radius: 40px;
-    height: 62px;
-    left: 140px;
+    height: 3.8vw;
+    left: 9vw;
     position: absolute;
-    top: 1330px;
-    width: 271px;
+    top: 82.4vw;
+    width: 17vw;
   }
   
   .frame .text-wrapper-12 {
@@ -373,7 +363,7 @@
     margin: 0;
     padding: 0;
     font-family: "Outfit-Light", Helvetica;
-    font-size: 22px;
+    font-size: 1.3vw;
     font-weight: 300;
     height: 100%;
     width: 100%;
@@ -387,45 +377,45 @@
   .frame .overlap-6 {
     height: 444px;
     position: absolute;
-    top: 2790px;
+    top: 174vw;
     width: 794px;
     display: flex;
     align-items: center;
+    justify-content: center;
   }
   
   .frame .wonder-how-colors {
     color: #000000;
     font-family: "Outfit-Regular", Helvetica;
-    font-size: 26px;
+    font-size: 1.6vw;
     font-weight: 400;
-    height: 160px;
     letter-spacing: 0.24px;
-    line-height: 35px;
+    line-height: 2.2vw;
     position: absolute;
     text-align: center;
-    top: 218px;
-    width: 794px;
+    top: 13.6vw;
+    align-self: center;
+    justify-self: center;
   }
   
   .frame .rectangle-10 {
     background-color: #272727;
     border-radius: 50px;
-    height: 101px;
-    left: -15px;
+    height: 6.4vw;
     position: absolute;
-    top: 338px;
-    width: 778px;
+    top: 21.1vw;
+    width: 50vw;
   }
   
   .frame .let-s-shift-to {
     color: #0d0d0d;
     font-family: "Outfit-SemiBold", Helvetica;
-    font-size: 98px;
+    font-size: 6vw;
     font-weight: 600;
     height: 196px;
     left: 79px;
     letter-spacing: -2.04px;
-    line-height: 100px;
+    line-height: 6.3vw;
     position: absolute;
     text-align: center;
     top: 0;
@@ -435,7 +425,7 @@
   .frame .text-wrapper-13 {
     color: #ffffff;
     font-family: "Outfit-SemiBold", Helvetica;
-    font-size: 27px;
+    font-size: 1.7vw;
     font-weight: 600;
     letter-spacing: -0.54px;
     line-height: 10px;
@@ -446,14 +436,14 @@
   .frame .review-terms-and {
     color: #000000;
     font-family: "Outfit-Regular", Helvetica;
-    font-size: 18px;
+    font-size: 1.1vw;
     font-weight: 400;
     height: 37px;
     letter-spacing: -0.18px;
     line-height: 35px;
     position: absolute;
     text-align: center;
-    top: 3260px;
+    top: 203.6vw;
     white-space: nowrap;
     width: 315px;
   }
@@ -470,127 +460,113 @@
   
   .frame .overlap-group-2 {
     background-color: #E5E5E5;
-    border-radius: 50px;
-    height: 601px;
-    left: 989px;
+    border-radius: 3.3vw;
+    height: 37.4vw;
+    left: 61.7vw;
     position: absolute;
-    top: 1920px;
-    width: 365px;
+    top: 119vw;
+    width: 22.9vw;
   }
   
   .frame .improve-the {
     color: #000000;
     font-family: "Outfit-Regular", Helvetica;
-    font-size: 22px;
+    font-size: 1.38vw;
     font-weight: 400;
     height: 160px;
-    left: 35px;
+    left: 2.3vw;
     letter-spacing: 0.22px;
-    line-height: 31px;
+    line-height: 2.3vw;
     position: absolute;
-    top: 120px;
-    width: 273px;
+    top: 8.4vw;
+    width: 18vw;
     text-align: left;
   }
   
   .frame .text-wrapper-16 {
     color: #0d0d0d;
     font-family: "Outfit-SemiBold", Helvetica;
-    font-size: 64px;
+    font-size: 4.5vw;
     font-weight: 600;
     height: 69px;
-    left: 35px;
+    left: 2.3vw;
     letter-spacing: -1.28px;
-    line-height: 69px;
     position: absolute;
-    top: 53px;
+    top: 3.7vw;
     white-space: nowrap;
   }
   
   .frame .overlap-7 {
     background-color: #E5E5E5;
-    border-radius: 50px;
-    height: 601px;
+    border-radius: 3.3vw;
+    height: 37.4vw;
     position: absolute;
-    top: 1920px;
-    width: 365px;
+    top: 119vw;
+    width: 22.9vw;
   }
   
   .frame .receive-personalized {
     color: #000000;
     font-family: "Outfit-Regular", Helvetica;
-    font-size: 22px;
+    font-size: 1.38vw;
     font-weight: 400;
     height: 160px;
-    left: 35px;
+    left: 2.3vw;
     letter-spacing: 0.22px;
-    line-height: 31px;
+    line-height: 2.3vw;
     position: absolute;
-    top: 120px;
-    width: 273px;
+    top: 8.4vw;
+    width: 18vw;
     text-align: left;
   }
   
   .frame .text-wrapper-17 {
     color: #0d0d0d;
     font-family: "Outfit-SemiBold", Helvetica;
-    font-size: 64px;
+    font-size: 4.5vw;
     font-weight: 600;
     height: 69px;
-    left: 35px;
+    left: 2.3vw;
     letter-spacing: -1.28px;
-    line-height: 69px;
     position: absolute;
-    top: 54px;
+    top: 3.7vw;
     white-space: nowrap;
   }
   
   .frame .overlap-8 {
     background-color: #E5E5E5;
-    border-radius: 50px;
-    height: 601px;
-    left: 246px;
+    border-radius: 3.3vw;
+    height: 37.4vw;
+    left: 15.4vw; 
     position: absolute;
-    top: 1920px;
-    width: 365px;
+    top: 119vw;
+    width: 22.9vw;
   }
   
   .frame .hands-free {
     color: #000000;
     font-family: "Outfit-Regular", Helvetica;
-    font-size: 22px;
+    font-size: 1.38vw;
     font-weight: 400;
     height: 160px;
-    left: 33px;
+    left: 2vw;
     letter-spacing: 0.22px;
-    line-height: 31px;
+    line-height: 2.3vw;
     position: absolute;
-    top: 120px;
-    width: 300px;
+    top: 8.4vw;
+    width: 19vw;
     text-align: left;
   }
   
   .frame .text-wrapper-18 {
     color: #0d0d0d;
     font-family: "Outfit-SemiBold", Helvetica;
-    font-size: 64px;
+    font-size: 4.5vw;
     font-weight: 600;
     height: 69px;
-    left: 33px;
+    left: 2vw;
     letter-spacing: -1.28px;
-    line-height: 69px;
     position: absolute;
-    top: 47px;
+    top: 3.5vw;
     white-space: nowrap;
   }
-  
-  .frame .ellipse {
-    background-color: #ffffff;
-    border-radius: 38.5px / 38px;
-    height: 76px;
-    left: 714px;
-    position: absolute;
-    top: 2707px;
-    width: 77px;
-  }
-  

@@ -50,10 +50,10 @@ function StartPage() {
 
           <div className="overlap-3">
             <div className="rectangle-5 text-wrapper-7" > ‎ 9</div>
-            <div className="rectangle-6" />
-            <div className="rectangle-7" />
-            <div className="rectangle-8" />
-            <div className="rectangle-9" />
+            <div className="rectangle-6 text-wrapper-7" ></div>
+            <div className="rectangle-7 text-wrapper-7" ></div>
+            <div className="rectangle-8 text-wrapper-7" ></div>
+            <div className="rectangle-9 text-wrapper-7" ></div>
           </div>
 
 
@@ -119,7 +119,6 @@ function StartPage() {
             <div className="text-wrapper-18">1</div>
           </div>
 
-          <div className="ellipse" />
 
 
 

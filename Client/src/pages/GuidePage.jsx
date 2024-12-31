@@ -45,7 +45,7 @@ function GuidePage() {
         contentA = (
             <>
             <button className="text-wrapper-2" onClick={First}>Proceed</button>
-            <div className="text">Before we begin, please follow and review the steps required to complete the test</div>
+            <div className="text">Before we begin, please follow and review the steps<br/> required to complete the test</div>
             </>
         );
         contentB = (
@@ -126,15 +126,21 @@ function GuidePage() {
                 <div className={`rectangle-1 ${one ? 'one' : ''} ${two ? 'two' : ''} ${three ? 'three' : ''} ${four ? 'four' : ''}`}>
                     {contentA}
                 </div>
-                <div className={`rectangle-2 ${one ? 'one' : ''} ${two ? 'two' : ''} ${three ? 'three' : ''} ${four ? 'four' : ''}`} >
-                    {contentD}
+
+                <div className={`lower ${one ? 'one' : ''} ${two ? 'two' : ''} ${three ? 'three' : ''} ${four ? 'four' : ''}`}>
+                    <div className={`rectangle-2 ${one ? 'one' : ''} ${two ? 'two' : ''} ${three ? 'three' : ''} ${four ? 'four' : ''}`} >
+                        {contentB}
+                    </div>
+                    <div className='right-container'>
+                        <div className={`rectangle-3 ${one ? 'one' : ''} ${two ? 'two' : ''} ${three ? 'three' : ''} ${four ? 'four' : ''}`} >
+                            {contentC}
+                        </div>
+                        <div className={`rectangle-4 ${one ? 'one' : ''} ${two ? 'two' : ''} ${three ? 'three' : ''} ${four ? 'four' : ''}`} >
+                            {contentD}
+                        </div>
+                    </div>
                 </div>
-                <div className={`rectangle-3 ${one ? 'one' : ''} ${two ? 'two' : ''} ${three ? 'three' : ''} ${four ? 'four' : ''}`} >
-                    {contentC}
-                </div>
-                <div className={`rectangle-4 ${one ? 'one' : ''} ${two ? 'two' : ''} ${three ? 'three' : ''} ${four ? 'four' : ''}`} >
-                    {contentB}
-                </div>
+
             </div>
         </div>
     );
