@@ -272,11 +272,10 @@
     position: absolute;
     bottom: 20px;
     background-color: #2280FD;
-  }
-  button{
     padding: 0.6vw 1.2vw !important;
     font-size: 1vw !important;
   }
   button:focus, button:hover {
-    outline: none; 
+    outline: transparent !important;
+    box-shadow: none; 
   }

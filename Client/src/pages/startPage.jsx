@@ -5,6 +5,9 @@ import '../stylesheets/HomePage.scss'
 
 function StartPage() {
   const navigate = useNavigate();
+  const scrollToSection = (sectionId) => {
+    document.getElementById(sectionId).scrollIntoView({ behavior: "smooth" });
+  };
 
   return (
     <div>
@@ -12,13 +15,13 @@ function StartPage() {
         <div className="div-2">
 
 
-
-          <div className="overlap-group">
+          {/* Navbar */}
+          <div className="overlap-group"> 
             <div className="text-wrapper-6">SpectrumEase</div>
             <div className='navbar'>
-              <button onClick={() => setTimeout(() => {document.getElementsByClassName('overlap-6').scrollIntoView({ behavior: 'smooth' });}, 100)}>Test</button>
+              <button onClick={() => scrollToSection("section4")}>Test</button>
               <button>Research</button>
-              <button>Concept</button>
+              <button onClick={() => scrollToSection("section3")}>Concept</button>
               <button>About</button>
             </div>
             <div className="overlap-2">
@@ -30,7 +33,7 @@ function StartPage() {
 
 
 
-
+          {/* Section1 */}
           <div className="text-wrapper-8">Get Clarity</div>
           <p className="unlock-the-full">
             <span className="span">Unlock the full </span>
@@ -47,7 +50,7 @@ function StartPage() {
 
 
 
-
+          {/* Circles */}
           <div className="overlap-3">
             <div className="rectangle-5 text-wrapper-7" > ‎ 9</div>
             <div className="rectangle-6 text-wrapper-7" ></div>
@@ -58,7 +61,7 @@ function StartPage() {
 
 
 
-
+          {/* Section2 */}
           <p className="our-tool-is-always">
             Our tool is always <br />
             ready to adapt <br />
@@ -78,14 +81,18 @@ function StartPage() {
           </div>
 
 
+
+
+
+
+          {/* Section3 */}
+          <div id='section3'></div>
+          <div className="overlap-4 text-wrapper-11" >Trust us the whole process</div>
           <div className="overlap-4 how-does-it-work">
             How does it work? Take these three simple steps <br />
             and we will do the rest
           </div>
-          <div className="overlap-4 text-wrapper-11">Trust us the whole process</div>
-
-
-
+          
 
 
           <div className="overlap-group-2">
@@ -123,7 +130,8 @@ function StartPage() {
 
 
 
-
+          {/* Section4 */}
+          <div id='section4'></div>
           <div className="overlap-6">
             <div className="let-s-shift-to">
               Let’s shift to
@@ -149,12 +157,14 @@ function StartPage() {
 
 
 
-
+          {/* Footer */}
           <div className="overlap">
             <div className="rectangle">
               <button style={{ position: 'absolute', bottom: '40px' }} onClick={() => navigate('/cruddata')}>CrudData</button>
             </div>
           </div>
+
+
         </div>
       </div>
     </div>
